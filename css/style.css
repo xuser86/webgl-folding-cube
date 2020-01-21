@@ -1,0 +1,35 @@
+body {
+  /*overflow: hidden;*/
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+#animation-canvas {
+  height: 60vh;
+
+  background-color: #1c2022;
+  /*display: none;*/
+}
+
+#textures-div {
+  min-height: 40vh;
+
+  background-color: #1c2022;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /*justify-content: space-around;*/
+}
+
+#textures-div canvas {
+  height: 15vh;
+  margin: 5px;
+}

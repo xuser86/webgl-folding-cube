@@ -1,0 +1,15 @@
+{
+  "name": "folding-cube-wip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "author": "Rafał Jeżewski",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  },
+  "keywords": []
+}
